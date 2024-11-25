@@ -1,0 +1,32 @@
+{
+  "name": "interior-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.3.0",
+    "@neondatabase/serverless": "^0.10.3",
+    "@paypal/react-paypal-js": "^8.7.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.1",
+    "firebase": "^11.0.2",
+    "next": "15.0.3",
+    "react-before-after-slider-component": "^1.1.8",
+    "replicate": "^0.33.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "daisyui": "^4.12.14",
+    "drizzle-kit": "^0.28.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "5.6.3"
+  }
+}
